@@ -18,6 +18,7 @@ a{
 }
 
 /* Define as características do header */
+
 .header{
     /* Cor de fundo */
     background-color: black;
@@ -45,6 +46,17 @@ a{
 .menu li a{
     display: block;
     padding: 10px;
-    background-color: #5e17eb;
+    /* background-color: #5e17eb; */
+}
 
+/* ********************* FAZENDO O CORPO DO SITE************************* */
+
+/* Ajustando o tamanho da imagem */
+.imagem{
+    width: 400px;
+    height: auto;
+}
+
+body{
+    background-color: rgb(230, 230, 230);
 }
