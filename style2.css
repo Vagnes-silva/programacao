@@ -53,32 +53,66 @@ a{
 
 .flex{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgb(241, 234, 234);
     display: flex;
-    flex-direction: column;    
+    /* flex-direction: column;  */
+    flex-wrap: wrap;   
     
 }
 /* Ajustando o tamanho da imagem */
 .imagem{
     width: 400px;
     height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.767);
+}
+.legenda{
+    text-align: center;
+    padding: 5px;
 }
 
-/* Ajustando os ítens da página */
-
-.item{
+/* Ajustando o texto*/
+.texto{
+    width: 100vh;
+    padding: 10px;
+    text-align: justify;
     display: flex;
-    /* justify-content: flex-end; */
-    /*center, flex-end* - podem ser usados*/
-    align-items: flex-start;
-    border: 2px solid black;
-    margin: 10px;
+    align-items: center;
 }
 
+/* Mudando a fonte do texto no parágrafo */
 .paragrafo{
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
-    padding: 10px;
-    text-align: justify;
+    color: rgb(46, 46, 180);
 }
+
+
+.item{
+    display: block;
+    margin: 10px;
+}
+
+/* Ajustando o cabeçalho */
+
+.footer{
+    background-color: rgb(241, 234, 234);
+    padding: 15px;
+    color:black;
+    font-size: 30px;
+  }
+
+.redesSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.redeLogo{
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
+}
+
 
