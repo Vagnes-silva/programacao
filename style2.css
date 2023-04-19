@@ -73,34 +73,40 @@ a{
 
 /* Ajustando o texto*/
 .texto{
-    width: 100vh;
+    width: 100%;
     padding: 10px;
     text-align: justify;
     display: flex;
     align-items: center;
 }
 
+.estagio{
+    display: flex;
+    width: 100%;
+}
+.item{
+    display: block;
+    margin: 10px;
+}
+
+
 /* Mudando a fonte do texto no parágrafo */
 .paragrafo{
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
     color: rgb(46, 46, 180);
 }
 
 
-.item{
-    display: block;
-    margin: 10px;
-}
-
-/* Ajustando o cabeçalho */
+/* Ajustando o rodapé*/
 
 .footer{
     background-color: rgb(241, 234, 234);
     padding: 15px;
     color:black;
     font-size: 30px;
-  }
+}
 
 .redesSociais{
     display: flex;
